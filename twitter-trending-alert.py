@@ -32,10 +32,12 @@ def main():
             if isTrendNew(trend_name, old_trends):
             #if trend_name == 'Tyga':
                 with indent(8, quote=colored.red(' |')):
-                    puts(trend['name'] + colored.red('  NEW'))
+                    puts(colored.red('  NEW'))
+		    print trend['name']
             else:
                 with indent(8, quote=colored.cyan(' |')):
-                    puts(trend['name'])
+                    puts(".")
+		    print trend['name']
         old_trends = new_trends
         
         print "\n\nRefreshing in:"
