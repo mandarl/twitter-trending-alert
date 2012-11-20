@@ -8,6 +8,9 @@ TODO
 ----
 * Configurable polling interval
 * Configurable location (currently worldwide)
+* In memory hasmap to maintain list
+* Prevent redrawing list on each iteration
+* Alert when a topic rises in the list
 
 Installation
 ------------
